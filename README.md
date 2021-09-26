@@ -27,6 +27,8 @@ The [prediction dashboard](http://65.2.75.233:8501/) is deployed in a free tier 
 ### Model details
 The trained models are in the `models` folder. We trained lot more models in the experimentation stage before drilling down to the models that gave the best performance. `lstmtest.py` contains the code for training the models and `forecasting.py` contains code for running the predictions.
 
+The results of this study shows  that time series modeling is capable of identifying and forecasting monthly stream pattern.June and September are the months where the inflow is more. Traditional  methods  for  modeling  time  series  come  from  the statistics  literature  and  address  the  issue  of  deriving  linear models.  Although  the  resulting  models  are  easy  to  interpret, these modeling methods impose strong limitations, such as the stationarity of the time series, the independence, and normality of the residuals and lack of ability to detect non-linear traits in data. The results of this study showed that time series modeling  is  capable  of  identifying  and  forecasting  monthly stream pattern and integrated water resources management.
+
 ### References
 - [Sources of Drinking water in Bangalore](https://www.karnataka.com/bangalore/what-is-the-source-of-drinking-water-in-bangalore/)
 - [Operation and Maintenance Manual for Krishnarajasagara Dam](http://waterresources.kar.nic.in/KRS_OM_KaWRD.pdf)
